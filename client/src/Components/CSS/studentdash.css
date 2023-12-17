@@ -1,0 +1,191 @@
+.main_content1 {
+  height: fit-content;
+  overflow: hidden;
+  margin-left: -3%;
+  margin-top: 5%;
+ 
+  width: 88%;
+  align-items: center;
+  padding: 20px 20px;
+}
+.card_sd {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+
+  height: 100%;
+
+  align-items: center;
+}
+
+.card_sd .content .edit {
+  margin-left: 85%;
+  align-items: left;
+}
+.card_sd .content .edit i {
+  margin-top: 10px;
+}
+.card_sd .content .img {
+  width: fit-content;
+
+  align-items: center;
+}
+.card_sd .content .img img {
+  width: 150px;
+  height: 150px;
+}
+.card_sd .content .edit:hover {
+  cursor: pointer;
+}
+.card_sd .content {
+  align-items: center;
+}
+.card_sd .content-text {
+  font-family: "Gugi", cursive;
+  color: #196eda;
+  margin-top: 20px;
+  height: fit-content;
+}
+
+.card_sd2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 78%;
+  margin-left: 13%;
+  height: 100%;
+
+  align-items: center;
+}
+.card_sd2 .content .edit {
+  margin-top: 5%;
+  margin-left: 80%;
+  align-items: left;
+}
+
+.card_sd2 .content img {
+  width: 150px;
+
+  height: 150px;
+}
+.card_sd2 .content .edit:hover {
+  cursor: pointer;
+}
+
+.l1 {
+  font-size: 30px;
+}
+
+.card_sd2 .content-text {
+  font-family: "Gugi", cursive;
+  color: #196eda;
+  margin-top: 30px;
+  width: fit-content;
+}
+
+.content-text ol {
+  font-family: "Gugi", cursive;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+.content-text ul {
+  list-style-type: none;
+  font-family: "Gugi", cursive;
+  color: black;
+}
+
+.content-text ul li {
+  border: 1px solid #000000a9;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 7px 7px 0;
+  padding: 7px;
+}
+
+.Achi {
+  margin-left: 10%;
+}
+.project_worked {
+  display: grid;
+  grid-template-columns: 33% 5% 60%;
+  margin-top: 70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 85%;
+  height: fit-content;
+  overflow: hidden;
+  margin-left: -30px;
+  padding: 20px 5px 0px 5px;
+}
+.swiper-button-prev {
+  display: none;
+}
+
+.swiper-button-next {
+  display: none;
+}
+.project_text {
+  font-family: "Gugi", cursive;
+  color: #196eda;
+  font-size: 30px;
+  margin-top: 7%;
+  margin-left: 20px;
+  text-align: center;
+}
+.text_data {
+  margin-top: 10%;
+}
+.project_img {
+  margin-left: 30%;
+}
+.project_img img {
+  width: 150px;
+  height: 150px;
+}
+.vl {
+  border-left: 1px solid black;
+  height: 90%;
+  margin-top: 10%;
+}
+.project_worked .fest-card {
+  margin-top: -1%;
+}
+
+.heading_sd {
+  margin-top: 2%;
+  margin-left: -2%;
+  height: 30vh;
+  width: 86%;
+
+  background-color: #b7e9ff;
+}
+
+.heading_sd .headtext {
+  font-size: 44px;
+  color: #196eda;
+}
+
+.heading_sd .headtext .studets {
+  color: #000000;
+  align-items: start;
+  text-align: left;
+  font-size: 22px;
+  margin: 20px 0px 20px 45px;
+}
+
+.stats-text {
+  width: 230px;
+  padding: 0px 0px 0px 30px;
+  float: left;
+  margin-bottom: 20px;
+}
+.stat-value {
+  float: right;
+  color: black;
+}
+
+.stats {
+  width: 300px;
+  height: fit-content;
+  overflow: hidden;
+}

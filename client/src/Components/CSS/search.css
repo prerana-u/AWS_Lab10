@@ -1,0 +1,40 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.searchBar{
+    border: 1px solid rgb(12, 115, 194);
+    width: 950px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: -220px;
+    padding: 5px;
+}
+
+#sicon{
+    color:rgb(12, 115, 194);
+}
+
+#searchbtn{
+    background-image: linear-gradient(
+        to bottom, #196EDA, #198FDB,
+            #1AA2DD);
+    width: 150px;
+    height: 45px;
+    padding: 10px;
+  
+    font-size: 15px;
+    font-family: 'Gugi', cursive;
+
+}
+
+.resultGrid{
+    margin-top: 50px;
+    min-width: 80vw;
+    height: fit-content;
+    margin-left: vw;
+    overflow: hidden;
+    padding: 40px;
+    align-items: center;
+}

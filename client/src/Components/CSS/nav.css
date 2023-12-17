@@ -1,0 +1,95 @@
+
+.vnav{
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #196EDA;
+    align-items: center;
+    text-align: left;
+    position: fixed;
+    height: 100%;
+    font-family: "Gugi",cursive;
+    overflow: auto;
+  }
+  .vnav .profile{
+    height:12%;
+    width: 100%;
+    align-items: left;
+    display: grid;
+    grid-template-columns: auto auto ;
+  }
+  .vnav .logo1{
+    margin-top: 21%;
+    border-radius: 0 15px 15px 0;
+    width: fit-content;
+    padding:0px 20px 40px 20px;
+    height: 6vh;
+    background-color: white;
+  }
+  .vnav .logo1 img{
+    height: 50px;
+    width: 50px;
+  }
+ .vnav .img1{
+    margin-top: 15%;
+    margin-left: 7%;
+    width:60px;
+    height: 60px;
+   
+  }
+  .img1 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+ .vnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .vnav ul li  #link {
+    display: block;
+    padding: 8px 16px;
+
+    width: 230px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 10px 0px;
+  }
+  .vnav ul li  #search {
+    display: block;
+    padding: 8px 16px;
+
+    width: 230px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 10px 0px;
+  }
+  .vnav ul li  #link i{
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .vnav ul li  #search i{
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .vnav li .active {
+    background-color: #0099FF;
+    padding: 8px 16px;
+    color: white;
+  }
+  
+  .vnav li :hover:not(.active) {
+    background-color: #50b3f0;
+    color: white;
+  }

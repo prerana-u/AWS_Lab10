@@ -1,0 +1,219 @@
+#reg{
+    text-align: center;
+    font-family: 'Gugi', cursive;
+    padding: 20px;
+    margin: auto;
+    color: #003C87;
+    margin-bottom: 100px;
+    background-image: url('../Images/background-reg.png');
+    width:1050px;
+    height:fit-content;
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+    overflow: hidden;
+    }
+
+    #freg{
+        text-align: center;
+        font-family: 'Gugi', cursive;
+        padding: 20px;
+        margin: auto;
+        color: #003C87;
+        margin-top: 100px;
+        background-color: #196EDA;
+        width:1050px;
+        height:fit-content;
+        -moz-box-shadow: 0 0 5px #ccc;
+        -webkit-box-shadow: 0 0 3px #ccc;
+        box-shadow: 0 0 3px #ccc;
+        overflow: hidden;
+        }
+
+#logindiv{
+    text-align: center;
+    font-family: 'Gugi', cursive;
+    padding: 20px;
+    margin: auto;
+    color: #003C87;
+    margin-bottom: 100px;
+    background-image: url('../Images/background.png');
+    width:860px;
+    height:500px;
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+    }
+ 
+.label{
+    width: fit-content;
+    text-align: left;
+    font-size: 18px;
+
+}
+
+.input1, input[type=password],input[type=email],input[type=tel],input[type=number], textarea {  
+width: 90%;  
+padding: 15px 40px;  
+margin: 10px 0px 32px 0px;  
+display: inline;
+border: 1px solid #000;
+background: #ffffff;  
+}  
+
+input[type=text]:focus, input[type=password]:focus, input[type=tel]:focus, input[type=email]:focus{  
+background-color: rgb(255, 255, 255);  
+outline: none;  
+}  
+
+#fimg
+{
+    float:right;
+   
+    margin-top: 70px;
+}
+#stuimage
+{
+    height: 500px;
+    width: 500px;
+}
+#fimg-1
+{
+    float:right;
+  
+    margin-top: -80px;
+
+}
+#fimg-2
+{
+    float:right;
+    height: 100px;
+    width: 100px;
+    margin-right: 220px;
+
+}
+#finput
+{
+    float:left;
+    padding: 10px; 
+    padding-left: 20px;
+    text-align: left;
+    width: 500px;
+    height: fit-content;
+    margin-top: 20px;
+
+    border-right: #ffffff solid 3px;
+}
+#finput-1
+{
+    float:left;
+    padding: 10px; 
+    padding-left: 20px;
+    text-align: left;
+    width: 400px;
+    height: fit-content;
+    margin-top: 20px;
+   
+   
+}
+#regbtn
+ {  
+    background-color: #1A9ADD;  
+    color: white;  
+    padding: 12px 20px;  
+    margin: 10px 0px;  
+    border: none;  
+    cursor: pointer;  
+    width: 90%;  
+    opacity: 0.9;  
+    box-shadow: 3px 3px 10px rgb(34, 35, 35);
+
+    font-family: 'Gugi', cursive;
+    font-size: 18px;
+}  
+#regbtn:hover
+{
+    background-color: #196EDA;  
+    box-shadow: none;
+}
+
+#stubtn
+{
+    width: fit-content;
+    padding: 10px 30px;
+    font-family: 'Gugi', cursive;
+    margin-top: 50px;
+    margin-left: 65%;
+    border: none;
+    font-size: 20px;
+    z-index: -1;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#stubtn1
+{
+    width: fit-content;
+    padding: 10px 30px;
+    font-family: 'Gugi', cursive;
+    margin-top: 50px;
+    margin-left: 60%;
+    border: none;
+    font-size: 20px;
+    z-index: -1;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.inactive
+{
+  
+    background-color: #1A9ADD;
+    color: white;
+   
+   
+}
+.active{
+   
+    background-color: #196EDA;
+    color: white;
+   
+}
+#teachbtn
+{
+    font-family: 'Gugi', cursive;
+    width: fit-content;
+    padding: 10px 30px;
+    margin-left: px;
+    border: none;
+    font-size: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#teachbtn1
+{
+    font-family: 'Gugi', cursive;
+    width: fit-content;
+    padding: 10px 30px;
+    margin-left: px;
+    border: none;
+    font-size: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h1,h3{
+    font-weight: lighter;
+}
+h3{
+    margin-top: 20px;
+}
+
+.fontuser {
+    position: relative;
+}
+  
+.fontuser i{
+    position: absolute;
+    left: 15px;
+    top: 50px;
+    color: #198FDB;
+}

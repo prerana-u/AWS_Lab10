@@ -1,0 +1,318 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#d1{
+  position: absolute;
+  left: 35%;
+  top: 58%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  width: 700px;
+  height: 500px;
+  font-size: 30px;
+  color:#003C87;
+  font-family: 'Gugi', cursive;
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  #bowl{
+    width: 450px;
+    height: 400px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 100px;
+    z-index: 1;
+    position: relative;
+    
+    }
+  #wave{
+    width: 100%;
+    margin-left: 0%;
+    margin-top: -100px;
+    z-index: -1;
+    }
+
+  #uf
+  {
+    background-color: #1aa1dd;
+    height: fit-content;
+    width: 100%;
+    margin-top: -10px;
+    text-align: center;
+    padding: 0px 10px 0px 100px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    display: flex;
+  }
+  #up
+  {
+    background-color: #1aa1dd;
+    height: fit-content;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    padding: 0px 10px 0px 100px;
+    padding-top: 150px;
+    align-items: center;
+    display: flex;
+   
+  }
+  h2{
+    color:#196EDA;
+    margin-top: 20px;
+  }
+  #uftext{
+    color:#ffffff;
+    font-size: 28px;
+    position: absolute;
+    left: 42%;
+    margin-top: -70px;
+    font-family: 'Gugi', cursive;
+  }
+  #uptext{
+    color:#ffffff;
+    font-size: 28px;
+    position: absolute;
+    left: 42%;
+    margin-top: 80px;
+    font-family: 'Gugi', cursive;
+  }
+  #mc
+  {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  #mcContainer
+  {
+    margin: 0px 60px 0px 60px;
+  }
+
+  .container{
+    margin-left:15%;
+    height: 100%;
+    width: 85%;
+    padding: 0 35px 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5px;
+    gap: 5px;
+    
+}
+.heading{
+  margin-top: 2%;
+  margin-left: -2%;
+  height: 20vh;
+  width: 94%;
+  border-radius: 15px;
+  background-color: #1BA2DE;
+}
+.main_content{
+  margin-left: -5%;
+  margin-top: 5%;
+  height: 45vh;
+  width: 100%;
+}
+.view_previous_fest{
+  margin-left: -5%;
+  margin-top: 8%;
+  padding-bottom: 10px;
+  
+  width: 90%;
+  text-align: left;
+}
+.fest-text{
+  font-family: "Gugi",cursive;
+  color: #196EDA;
+  font-size: 30px;
+  margin-top: -60px;
+  margin-bottom: 30px;
+}
+.card1{
+  margin-left: 2%;
+}
+.card2{
+  margin-left: 9%;
+}
+.content_buttons{
+  width: 105%;
+  height: 70%;
+
+  align-items: left;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.headingcontent1{
+  width: 90%;
+  height: 20vh;
+  font-family: "Gugi",cursive;
+  font-size: 40px;
+  align-items: left;
+  display: grid;
+  text-align: center;
+  color: #fff;
+  grid-template-columns: auto auto ;
+}
+.fest-card1{
+  font-family: "Gugi",cursive;
+  margin-left: 6%;
+}
+.fest-card{
+  width: 100%;
+  height: 100%;
+ 
+}
+.swiper1{
+ 
+  height:400px;
+  padding: 0px 20px;
+
+}
+.headtext{
+  margin-top: 8%;
+}
+.headimg{
+  margin-left: 50%;
+  margin-top: 2%; 
+  align-items: right;
+}
+.headimg img{
+  height: 92%;
+}
+
+.card_td{
+  display: grid;
+  grid-template-columns: 33% 5% 60%;
+  margin-top: 70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 94%;
+  height: fit-content;
+  overflow: hidden;
+  margin-left: -20px;
+  padding: 20px 5px cont0px 5px;
+}
+
+.card_td .text_data{
+  
+  width: 150%;
+}
+
+.card_td .project_img img{
+  
+  width: 150px;
+  height: 150px;
+  margin-left: 40px;
+}
+
+.card_td .stats {
+  width: 600px;
+  height: fit-content;
+  overflow: hidden;
+ 
+}
+
+.card_td .stats-text {
+  width: 300px;
+  padding: 0px 0px 0px 0px;
+  float: left;
+  margin-bottom: 30px;
+ 
+}
+#about{
+  background-color: #73bee5;
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 50px;
+  
+  font-family: 'Domine', serif;
+  font-family: 'Spectral', serif;
+  height: auto;
+  }
+  #abouttext{
+  margin-bottom: 0px;
+  width: 1150px;
+  margin: auto;
+  text-align: justify;
+  font-family: 'Gugi',cursive;
+  color:#fff;
+  line-height: 40px;
+  font-size: 22px;
+  }
+  
+  .cards{
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  width:100%;
+  height: auto;
+  margin-top: 30px;
+  font-family: 'Gugi',cursive;
+  margin-left: 130px;
+
+  }
+  .card_ab {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: #fff;
+  transition: 0.3s;
+  padding: 30px;
+  padding-bottom: 10px;
+  font-family: 'Gugi',cursive;
+  width:300px;
+  margin:  auto;
+  margin-left: 20px;
+  }
+  .card_ab1 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: #fff;
+  transition: 0.3s;
+  padding: 30px;
+  padding-bottom: 10px;
+  
+  width:300px;
+  margin:  auto;
+  margin-left: -150px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container1 {
+  padding: 2px 16px;
+  background-color: rgb(255, 255, 255);
+  text-align: cemter;
+  font-family: 'Gugi',cursive;
+  
+  
+  }
+
+  ol{
+    text-align: left;
+    margin: 10px 0px;
+    font-size: 14px;
+    line-height: 40px;
+    }
